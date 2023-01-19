@@ -1,0 +1,91 @@
+body {
+  background-color: #0f0f1c;
+  color: white;
+  margin: 10px;
+  
+}
+
+/* .container{
+  flex-wrap: wrap;
+} */
+
+.title {
+  color: white;
+  /* margin-bottom: 1 rem; */
+}
+.connect-wallet{
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #0f0f1c;
+  font-size: medium;
+  
+}
+
+.is-link{
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgb(42, 3, 61);
+  color: whitesmoke;
+}
+
+
+
+.panel {
+  margin-top: 2em;
+}
+
+.panel-heading {
+  padding: 10px;
+  border-radius: 8px;
+  background-image: linear-gradient(to left,#390f32, #070709);
+  background-color: black;
+  color: white;
+}
+
+.address-box {
+  padding: 10px;
+}
+
+.box .title {
+  color: #333;
+}
+
+.input{
+  padding: 10px;
+  width: 500px;
+  border-radius: 8px;
+  background-color: rgb(103, 174, 237);
+  color: white;
+  font-size: medium;
+}
+
+
+.navbar .navbar-item {
+  color: white;
+}
+
+.connect-wallet span {
+  color: #E10859;
+}
+
+
+.connect-wallet:hover {
+  background-color: #e1e1e1 !important;
+}
+
+.container.main-content {
+  max-width: 1000px !important;
+}
+
+.faucet-hero-body {
+  margin-top: 100px;
+}
+
+.withdraw-error {
+  color: red;
+}
+
+.withdraw-success {
+  color: green;
+}

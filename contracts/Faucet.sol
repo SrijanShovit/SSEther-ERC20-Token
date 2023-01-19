@@ -2,7 +2,7 @@
 pragma solidity >=0.5.0 <0.9.0;
 
 interface IERC20 {
-    function transfer(address to,uint amount) external view returns(bool);
+    function transfer(address to,uint amount) external returns(bool);
     function balanceOf(address account) external view returns (uint);
     event Transfer(address indexed from,address indexed to,uint value);
 }
